@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "EgameUserSDK"
+  s.name         = "EgameUserSdk"
   s.version      = "1.1.0"
-  s.summary      = "EgameUserSDK is UserSDK of Egame"
+  s.summary      = "EgameUserSdk is UserSDK of Egame"
 
   s.description  = <<-DESC
                  	Fast way to set the UserSDK of Egame by cocoapods
@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Danny1451/EgameUserSDK.git", :tag => "1.1.0" }
+  s.source       = { :git => "https://github.com/Danny1451/EgameUserSdk.git", :tag => "1.1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "EgameUserSDK/*.h"
+  s.source_files  = "EgameUserSdk/*.h"
   # s.public_header_files = "Classes/**/*.h"
 
 
@@ -98,7 +98,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-   s.resources = "EgameUserSDK/EgameUserSdkBundle.bundle"
+   s.resources = "EgameUserSdk/EgameUserSdkBundle.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -112,7 +112,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
    s.frameworks = "MobileCoreServices", "Security","ImageIO","SystemConfiguration","Foundation","CFNetwork","AdSupport"
 
-   s.vendored_libraries  = "EgameUserSDK/libEgameUserSdk.a"
+   s.vendored_libraries  = "EgameUserSdk/libEgameUserSdk.a"
   # s.libraries = "iconv", "xml2"
 
 
