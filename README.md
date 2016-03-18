@@ -7,7 +7,7 @@ EgameUserSDK支持使用Cocoapods集成
 
 在pod中加入以下语句
 
-    pod 'EGUserSDK', '~> 1.1.1'
+    pod 'EgameUserSDK', '~> 1.1.1'
 
 
 ## 二、 配置URL Schemes
