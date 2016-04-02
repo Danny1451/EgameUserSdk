@@ -3,7 +3,7 @@
 
 ## 一、 快速配置
 
-EgameUserSDK支持使用Cocoapods集成
+EgameUserSDK支持使用CocoaPods集成
 
 在pod中加入以下语句
 
